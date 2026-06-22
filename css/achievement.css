@@ -1,0 +1,85 @@
+body{
+    background-color: #060708;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.github-username{
+    margin-left: 15px;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+nav{
+    width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+}
+
+
+.navbar-content{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+}
+
+
+.navbar-content a{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #babfc4;
+    font-size: 14px;
+    font-weight: bold;
+    margin:20px;
+    margin-left: auto;
+    padding: 10px;
+}
+
+
+#hire-me{
+    text-align: center;
+    width: 60px;
+    background-color: azure;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.footer{
+    background-color: #050506;
+}
+
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.footer-icons img{
+    width: 40px;
+    border-radius: 100%;
+    padding: 50px 0 50px 0;
+}
+
+
+.copyright{
+    color: #babfc4;
+    text-align: center;
+}
+
+
+.copyright p{
+    margin-top: 0;
+    padding: 0 0 50px 0;
+}
