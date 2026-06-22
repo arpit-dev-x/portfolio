@@ -19,7 +19,6 @@ nav{
 
 
 .navbar{
-    /* background-color: blue; */
     display: flex;
 }
 
@@ -36,7 +35,7 @@ nav{
     text-align: center;
     align-items: center;
     text-decoration: none;
-    color: #a5a6a9;
+    color: #babfc4;
     font-size: 14px;
     font-weight: bold;
     margin:20px;
@@ -51,4 +50,36 @@ nav{
     background-color: azure;
     text-align: center;
     border-radius: 8px;
+}
+
+
+.footer{
+    background-color: #050506;
+}
+
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.footer-icons img{
+    width: 40px;
+    border-radius: 100%;
+    padding: 50px 0 50px 0;
+}
+
+
+.copyright{
+    color: #babfc4;
+    text-align: center;
+}
+
+
+.copyright p{
+    margin-top: 0;
+    padding: 0 0 50px 0;
 }
