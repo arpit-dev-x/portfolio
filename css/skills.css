@@ -121,3 +121,25 @@ nav{
     font-weight: bold;
     font-size: 30px;
 }
+
+
+.main-icon img{
+    width: 60px;
+    transform: translate(200px, 100px);
+}
+
+
+.main-name{
+    transform: translate(-30px, 30px);
+    height: 40px;
+}
+
+
+.main-view_more{
+    transform: translate(-80px, 410px);
+    background-color: aliceblue;
+    height: 35px;
+    text-align: center;
+    padding: 15px 80px 15px 80px;
+    border-radius: 20px;
+}
