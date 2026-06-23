@@ -15,7 +15,6 @@ body{
 
 nav{
     width: 100%;
-    position: fixed;
     background-color: #050506;
     margin-top: -8px;
     border-bottom: 1px solid #222222;
@@ -88,11 +87,4 @@ nav{
 .copyright p{
     margin-top: 0;
     padding: 0 0 50px 0;
-}
-
-
-.main{
-    background-color: #0b0b0c;
-    color: #babfc4;
-    padding: 80px;
 }
