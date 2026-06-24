@@ -90,7 +90,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
 }
 
 
@@ -114,17 +114,17 @@ nav{
 
 
 .main-heading{
-    padding-top: 80px;
+    margin-top: 110px;
     color: #f2dada;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
 }
 
 
 .main-grid{
-    margin: 40px 50px;
+    width: 90%;
+    margin: 40px auto;
     border-radius: 20px;
     background-color: #0d0d0d;
     color: #babfc4;
