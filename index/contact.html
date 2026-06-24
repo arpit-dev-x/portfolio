@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="../media/background.mp4" type="video/mp4">
+    </video>
+
     <nav>
         <div class="navbar">
             <div class="github-username">Arpit-TheDeveloper</div>
@@ -24,7 +28,7 @@
         </div>
     </nav>
 
-    <div class="main-heading">Get in Touch</div>
+    <div class="main-heading">Get In Touch</div>
     <div class="main-note">
         <p>
             Currently open for <span class="span">new opportunities</span> and collaborations. Whether you have a technical question or a project idea, I'm just a message away.
@@ -33,29 +37,44 @@
     
     <div class="main-grid">
         <div class="main-left-child-grid">
-            <div class="link-name">EMail</div>
+            <div class="brief-heading">💬 Direct Access</div>
             <div class="main-link">
+                <div class="link-name">EMail</div>
                 <a href="mailto:gupta.arpitkumar11112005@gmail.com" target="_blank" rel="noopener noreferrer">gupta.arpitkumar11112005@gmail.com</a>
             </div>
-            <div class="link-name">LinkedIn</div>
-            <div class="link">
+            <div class="main-link">
+                <div class="link-name">LinkedIn</div>
                 <a href="https://www.linkedin.com/in/engr-arpit-gupta" target="_blank" rel="noopener noreferrer">Arpit Gupta</a>
             </div>
+            <div class="main-link">
             <div class="link-name">GitHub</div>
-            <div class="link">
                 <a href="https://github.com/Arpit-TheDeveloper" target="_blank" rel="noopener noreferrer">Arpit-TheDeveloper</a>
             </div>
+            <div class="main-link">
             <div class="link-name">Instagram</div>
-            <div class="link">
                 <a href="https://www.instagram.com/the.arpitgupta" target="_blank" rel="noopener noreferrer">the.arpitgupta</a>
             </div>
         </div>
 
-        <div class="main-right-child-grid"></div>
-        <div class="link-name">GitHub</div>
-            <div class="link">
-                <a href="https://github.com/Arpit-TheDeveloper" target="_blank" rel="noopener noreferrer">Arpit-TheDeveloper</a>
+        <div class="main-right-child-grid">
+            <div class="form-label">
+                <label class="input" for="name">Name</label>
+                <label class="input" for="email">Email</label>
+                <label class="input" for="message">Message</label>
             </div>
+            <div class="form-input">
+                <input type="text" name="" id="name">
+                <input type="text" name="" id="email">
+                <input type="text" name="" id="message">
+            </div>
+
+            <div class="btn">
+                Send Engineering Brief
+            </div>
+            <div class="google-form">
+                <a href="https://forms.gle/sxYKacgdphzX1VvDA" target="_blank" rel="noopener noreferrer">Drop Your Message Here</a>
+            </div>
+        </div>
     </div>
     
     <footer class="footer">
