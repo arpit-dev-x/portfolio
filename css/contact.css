@@ -181,6 +181,13 @@ nav{
 }
 
 
+.main-link:hover{
+    background-color: #222222;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+}
+
+
 .link-name{
     display: flex;
     color: #0a6b69;
@@ -229,6 +236,13 @@ nav{
     margin-bottom: 60px;
     padding: 30px;
     border-radius: 8px;
+}
+
+
+.btn:hover{
+    background-color: #222222;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
 }
 
 
