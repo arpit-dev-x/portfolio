@@ -33,6 +33,7 @@ body{
     padding: 20px;
     font-weight: bold;
     color: aliceblue;
+    text-shadow: 2px 2px 4px #848282;
 }
 
 
@@ -43,7 +44,6 @@ nav{
     width: 100%;
     background-color: #050506;
     border-bottom: 1px solid #222222;
-    z-index: 100;
 }
 
 
@@ -83,13 +83,14 @@ nav{
     background-color: azure;
     color: black;
     border-radius: 4px;
+    text-shadow: 2px 2px 4px #848282;
 }
 
 
 #hire-me:hover{
     color: #1a1919;
-    transform: scale(1.1);
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.12);
 }
 
 
@@ -119,6 +120,12 @@ nav{
 .copyright{
     color: #babfc4;
     text-align: center;
+}
+
+
+.copyright p{
+    margin-top: 0;
+    padding: 0 0 50px 0;
 }
 
 
