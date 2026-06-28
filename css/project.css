@@ -262,7 +262,7 @@ nav{
     margin: 40px auto;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 1px 5px 5px rgba(150, 147, 147, 0.5);
     transition: transform 0.3s ease;
 }
 
