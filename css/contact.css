@@ -275,3 +275,35 @@ nav{
     text-decoration: none;
     color: antiquewhite;
 }
+
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+    }
+
+
+    .hamburger{
+        display: block;
+        margin: auto;
+        transform: scale(1.7);
+    }
+
+
+    .github-username{
+        width: 70%;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+
+    .navbar-content{
+        display: none;
+        flex-direction: column;
+    }
+
+
+    .navbar-content.active{
+        display: flex;
+    }

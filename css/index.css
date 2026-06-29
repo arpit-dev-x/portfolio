@@ -263,25 +263,31 @@ nav{
 @media (max-width: 768px) {
     .navbar{
         display: flex;
-        justify-content: space-between;
     }
 
 
     .hamburger{
         display: block;
         margin: auto;
+        transform: scale(1.7);
     }
 
 
     .github-username{
-        width: 1000%;
+        width: 70%;
         font-size: 30px;
         padding: 20px;
     }
-    
-    
-    .navbar-content a{
+
+
+    .navbar-content{
         display: none;
+        flex-direction: column;
+    }
+
+
+    .navbar-content.active{
+        display: flex;
     }
 
 

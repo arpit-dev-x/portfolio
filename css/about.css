@@ -135,3 +135,35 @@ nav{
     margin-top: 0;
     padding: 0 0 50px 0;
 }
+
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+    }
+
+
+    .hamburger{
+        display: block;
+        margin: auto;
+        transform: scale(1.7);
+    }
+
+
+    .github-username{
+        width: 70%;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+
+    .navbar-content{
+        display: none;
+        flex-direction: column;
+    }
+
+
+    .navbar-content.active{
+        display: flex;
+    }
