@@ -146,9 +146,10 @@ nav{
 }
 
 
-.heading{
+.headline{
     margin: auto;
     margin-top: 110px;
+    margin-bottom: 50px;
     width: 35%;
     color: #f2dada;
     font-size: 40px;
@@ -157,49 +158,11 @@ nav{
 }
 
 
-.line{
-    background-color: #2c2929;
-    color: #ffffff3c;
-    font-size: 2px;
-    width: 25%;
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    width: 84%;
     margin: auto;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-
-.line:nth-child(2){
-    background-color: #2c2929;
-    color: #ffffff3c;
-    width: 20%;
-}
-
-
-.line:nth-child(3){
-    background-color: #2c2929;
-    color: #ffffff3c;
-    width: 15%;
-}
-
-
-.line:nth-child(4){
-    background-color: #2c2929;
-    color: #ffffff3c;
-    width: 10%;
-}
-
-
-.line:nth-child(5){
-    background-color: #2c2929;
-    color: #ffffff3c;
-    width: 5%;
-}
-
-
-.line:nth-child(6){
-    background-color: #2c2929;
-    color: #ffffff3c;
-    width: 1.5%;
 }
 
 
@@ -215,10 +178,9 @@ nav{
 .card{
     background-color: #0d0d0d;
     margin: auto;
-    margin-top: 50px;
     margin-bottom: 50px;
     width: 80%;
-    min-height: 300px;
+    min-height: 250px;
     height: auto;
     border-radius: 20px;
     font-weight: bold;
@@ -237,19 +199,28 @@ nav{
 }
 
 
-.name{
-    text-align: center;
+.skill-name{
+    color: #7d40f7;
     width: 90%;
-    margin: auto;
     margin-top: 30px;
+    margin-left: auto;
+    font-size: 22px;
 }
 
 
-.icon img{
-    display: flex;
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
     margin: auto;
-    margin-top: 30px;
-    width: 40%;
+    margin-top: 10px;
+}
+
+
+.skill-grid img{
+    margin: auto;
+    margin-top: 20px;
+
 }
 
 
