@@ -55,16 +55,14 @@ nav{
 
 
 .navbar{
-    display: flex;
+    display: flex;  
 }
 
 
 .navbar-content{
     display: flex;
-    width: 75%;
-    margin: auto;
-    margin-right: 0;
-    justify-content: space-evenly;
+    width: 48%;
+    margin-left: auto;
 }
 
 
@@ -75,7 +73,8 @@ nav{
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.2px;
-    padding: 20px;
+    padding: 15px;
+    margin: auto;
     border-radius: 8px;
 }
 
@@ -89,7 +88,6 @@ nav{
     justify-content: center;
     background-color: azure;
     color: black;
-    border-radius: 4px;
     text-shadow: 2px 2px 4px #848282;
 }
 
@@ -97,7 +95,7 @@ nav{
 #hire-me:hover{
     color: #1a1919;
     transition: transform 0.1s ease-in-out;
-    transform: scale(1.12);
+    transform: scale(1.05);
 }
 
 
