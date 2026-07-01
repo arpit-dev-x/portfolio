@@ -193,6 +193,21 @@ nav{
 }
 
 
+.collection{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.cert{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
 /* For Tablets */
 @media (max-width: 768px) {
     .navbar{
