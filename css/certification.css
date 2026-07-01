@@ -187,18 +187,9 @@ nav{
 
 .name{
     color: #11ef2b;
-    text-align: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
-}
-
-
-.icon img{
-    display: flex;
-    margin: auto;
-    margin-top: 30px;
-    width: 40%;
 }
 
 
